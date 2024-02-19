@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.choices{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    
+
+}
+.choice{
+    /* padding: 25px; */
+    width: 150px;
+    height: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    color: black;
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    padding: 4.5vh;
+    font-size: 150%;
+    font-weight: 900;
+}
+
+.scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2.5rem;
+}
+
+.You, .comp{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.msg-container{
+    margin-top: 50px;
+}
+
+#msg{
+    background-color: blue;
+    color: aliceblue;
+    font-size:2.0rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+
+button{
+    margin-top: 35px;
+    font-size: 15px;
+    border-radius: 50px  ;
+    padding: 10px;
+    background-color: red;
+    color: whitesmoke;   
+    /* margin-bottom: 25px; */
+}
+
+button:hover{
+    opacity:0.7;
+    cursor: pointer;
+}
